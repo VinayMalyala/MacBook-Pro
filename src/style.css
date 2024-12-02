@@ -49,3 +49,7 @@ html, body{
     filter: blur(20px);
     opacity: 0.8;
 }
+
+.line{
+    border-bottom: 1px solid #444;
+}

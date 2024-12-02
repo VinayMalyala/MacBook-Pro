@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div className='w-full h-screen font-signika'>
 
-      <div className="navbar absolute top-0 left-1/2 -translate-x-1/2">
-          {["iPhone", "iPad", "iPods","Air M1", "Air M2"].map((e) => (
-            <a href="" className='text-white'></a>
+      <div className="navbar line flex gap-6 absolute top-0 left-1/2 -translate-x-1/2">
+          {["iPhone", "iPad", "iPods Gen1", "iPods Gen2", "Air M1", "Air M2", "Mac Mini", "iMac", "Mac Studio"].map((e) => (
+            <a key={e} href="" className='text-white pt-10 pb-2 font-[400] text-md'>{e}</a>
           ))}
       </div>
 
