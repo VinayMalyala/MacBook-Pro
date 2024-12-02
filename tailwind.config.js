@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        signika: ["Signika Negative", "serif"],
+        pacifico: ["Pacifico", "serif"]
+      }
+    },
   },
   plugins: [],
 }
